@@ -10,7 +10,8 @@ import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 
 const Header = () => {
   return (
-    <header className="bg-purple-900 mx-5 mt-2 text-2xl text-white h-24 rounded-t-lg flex items-center place-items-center sm:justify-between justify-between px-4">
+    <header className="bg-purple-900  mx-5 mt-2 text-2xl text-white h-24 rounded-t-lg flex items-center place-items-center sm:justify-between justify-between px-4">
+     <div className="container mx-auto flex flex-row sm:flex-row justify-between items-center">
       <div className="">
         <h1 className='font-style: italic text-4xl text-center underline'>Faizan Masood</h1>
       </div>
@@ -55,7 +56,7 @@ const Header = () => {
             </ul>
         </SheetContent>
       </Sheet>
-
+      </div>
     </header>
   );
 };

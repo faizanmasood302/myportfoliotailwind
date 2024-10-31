@@ -1,7 +1,7 @@
 export default function AboutUs() {
   return (
       <main className="m-5 bg-purple-900 text-white relative overflow-hidden">
-          <section id="AboutUs" className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <section id="AboutUs" className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-48 sm:py-16 md:py-20 lg:py-24 xl:py-28 ">
               <div className="my-12 sm:my-16 md:my-20 lg:my-24 xl:my-28 flex justify-center flex-col items-center">
                   <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">About Me</h1>
                   <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl bg-white bg-opacity-10 p-4 sm:p-6 rounded-lg max-w-2xl lg:max-w-3xl xl:max-w-4xl">
